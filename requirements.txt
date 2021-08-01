@@ -10,6 +10,13 @@ colorama==0.4.3
 cymem==2.0.5
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
 Flask==1.1.2
+gast==0.3.3
+google-auth==1.22.1
+google-auth-oauthlib==0.4.1
+google-pasta==0.2.0
+grpcio==1.32.0
+gunicorn==20.0.4
+h5py==2.10.0
 idna==3.2
 importlib-metadata==4.6.3
 isort==5.5.4
@@ -26,6 +33,7 @@ mccabe==0.6.1
 murmurhash==1.0.5
 nltk==3.5
 numpy==1.19.5
+oauthlib==3.1.0
 pandas==1.2.0
 pickle-mixin==1.0.2
 pickleshare==0.7.5
@@ -33,8 +41,10 @@ plac==1.1.3
 preshed==3.0.5
 pyrsistent==0.18.0
 regex==2020.9.27
-requests==2.26.0
+requests==2.24.0
+requests-oauthlib==1.3.0
 scikit-learn==0.23.2
+scipy==1.4.1
 six==1.15.0
 soupsieve==2.2.1
 spacy==2.3.5
@@ -48,7 +58,7 @@ typed-ast==1.4.3
 typing-extensions==3.10.0.0
 urllib3==1.26.6
 wasabi==0.8.2
-Werkzeug==0.16.1
+Werkzeug==1.0.1
 wincertstore==0.2
 wrapt==1.12.1
 zipp==3.5.0
