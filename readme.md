@@ -14,6 +14,6 @@ Resume data were collected manually from different sources such as gforms, Linke
 ### To use this API on the local server open CMD and follow below steps mentioned:
 
 1. clone the repository
-2. run `python setup.py`
+2. run the flask server with `python setup.py`
 
 
