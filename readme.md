@@ -16,4 +16,15 @@ Resume data were collected manually from different sources such as gforms, Linke
 1. clone the repository
 2. run the flask server with `python setup.py`
 
+### API Response Demo : <br>
+#### Uploader Page 
+<img src="demo/uploader page.png"><br>
+
+#### API Response 
+<img src="/demo/API Response.png">
+
+
+
+
+
 
