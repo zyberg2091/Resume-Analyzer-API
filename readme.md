@@ -24,6 +24,16 @@ Resume data were collected manually from different sources such as gforms, Linke
 <img src="/demo/API Response.png">
 
 
+### Deployment 
+
+`Deployment Status` : Pending 
+<br>
+<br>
+`Sample URL` : https://resume-analyzer123.herokuapp.com/
+
+
+
+
 
 
 
