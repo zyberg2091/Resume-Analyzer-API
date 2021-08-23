@@ -370,22 +370,22 @@ def patterns():
   return features,matcher
 
 
-if __name__=='__main__':
+# if __name__=='__main__':
 
-  features,matcher=patterns()
-  resumelist=['Resume data/My resume optional.pdf','Resume data/My Resume.pdf','Resume data/rds.pdf']  #examples
-  resume_obj=Resume_Extractor(resumelist)
-  matches,doclist=resume_obj(matcher)
-  # print(Resume_Extractor.doc_list)
-  # for match_id,pos1,pos2 in matches: 
-  #   print(f'{nlp.vocab.strings[match_id]} : {doc[pos1:pos2].text}')
+#   features,matcher=patterns()
+#   resumelist=['Resume data/My resume optional.pdf','Resume data/My Resume.pdf','Resume data/rds.pdf']  #examples
+#   resume_obj=Resume_Extractor(resumelist)
+#   matches,doclist=resume_obj(matcher)
+#   # print(Resume_Extractor.doc_list)
+#   # for match_id,pos1,pos2 in matches: 
+#   #   print(f'{nlp.vocab.strings[match_id]} : {doc[pos1:pos2].text}')
 
 
-  arr_obj=Feature_Matrix(len(resumelist),len(features))
-  x_data,y_data=arr_obj.feature_gen(matches,doclist,features)
+#   arr_obj=Feature_Matrix(len(resumelist),len(features))
+#   x_data,y_data=arr_obj.feature_gen(matches,doclist,features)
   
-  print(len(features))
-  print(x_data)
-  print('\n')
-  print(y_data)
+#   print(len(features))
+#   print(x_data)
+#   print('\n')
+#   print(y_data)
 
